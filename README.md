@@ -5,13 +5,13 @@
 <!-- omit in toc -->
 # Train LLM From Scratch
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue) [![CI](https://github.com/FareedKhan-dev/train-llm-from-scratch/actions/workflows/ci.yml/badge.svg)](https://github.com/FareedKhan-dev/train-llm-from-scratch/actions/workflows/ci.yml) ![License](https://img.shields.io/badge/License-MIT-green) ![Contributions](https://img.shields.io/badge/Contributions-Welcome-blue) [![Docs](https://img.shields.io/badge/Docs-Available-success)](https://fareedkhan-dev.github.io/train-llm-from-scratch/)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue) [![CI](https://github.com/Vikashs/train-llm-from-scratch/actions/workflows/ci.yml/badge.svg)](https://github.com/FareedKhan-dev/train-llm-from-scratch/actions/workflows/ci.yml) ![License](https://img.shields.io/badge/License-MIT-green) ![Contributions](https://img.shields.io/badge/Contributions-Welcome-blue) [![Docs](https://img.shields.io/badge/Docs-Available-success)](https://fareedkhan-dev.github.io/train-llm-from-scratch/)
 
-**I am Looking for a PhD position in AI**. [GitHub](https://github.com/FareedKhan-dev)
+**Be in Touch**. [GitHub](https://github.com/VikashS)
 
 </div>
 
-I implemented a transformer model from scratch using PyTorch, based on the paper [Attention is All You Need](https://arxiv.org/abs/1706.03762). You can use my scripts to train your own **billion** or **million** parameter LLM using a single GPU, or a small one on a laptop CPU with no GPU at all.
+Implementation of a transformer model from scratch using PyTorch, based on the paper [Attention is All You Need](https://arxiv.org/abs/1706.03762). You can use my scripts to train your own **billion** or **million** parameter LLM using a single GPU, or a small one on a laptop CPU with no GPU at all.
 
 This started as a pretraining tutorial. It now goes all the way from raw text to an aligned, reasoning style model, with every algorithm hand written in plain PyTorch (no `trl`, no `peft`, no `transformers`). The whole journey is one idea repeated: turn text into numbers, predict the next token, then keep changing the data and the loss until the model does what we want.
 
